@@ -24,6 +24,7 @@ def binary(list, target):
         end=mid-1
      else:
         start=mid+1
+   return -1
         
 result4=binary([ 1, 7, 44, 45, 46, 58, 67, 99, 145], 67)
 print(result4+"\n")
